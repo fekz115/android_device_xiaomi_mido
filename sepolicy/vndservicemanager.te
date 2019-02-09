@@ -1,0 +1,4 @@
+allow vndservicemanager hal_fingerprint_default:dir search;
+allow vndservicemanager hal_fingerprint_default:file { open read };
+allow vndservicemanager hal_fingerprint_default:process getattr;
+allow vndservicemanager runtime_event_log_tags_file:file { open read };

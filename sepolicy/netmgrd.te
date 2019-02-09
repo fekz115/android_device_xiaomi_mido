@@ -1,0 +1,1 @@
+allow netmgrd netutils_wrapper:process noatsecure;

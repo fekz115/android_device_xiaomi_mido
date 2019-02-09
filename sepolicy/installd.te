@@ -1,0 +1,2 @@
+allow installd idmap:process noatsecure;
+allow installd dex2oat:process noatsecure;

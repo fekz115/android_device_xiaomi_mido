@@ -1,0 +1,7 @@
+allow init hal_ir_hwservice:hwservice_manager add;
+allow init hidl_base_hwservice:hwservice_manager add;
+allow init sysfs:file setattr;
+allow init sysfs_leds:lnk_file read;
+allow init vendor_file:file { execute execute_no_trans };
+allow init hwservicemanager:binder { call transfer };
+allow init vendor_toolbox_exec:file execute_no_trans;
