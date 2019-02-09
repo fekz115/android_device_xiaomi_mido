@@ -35,6 +35,9 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 
+# Properties
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
