@@ -16,7 +16,7 @@
 # Inherit from common msm8953-common
 -include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/mido
+DEVICE_PATH := device/xiaomi/vince
 
 # Filesystem
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -24,7 +24,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
-TARGET_KERNEL_CONFIG := mido_defconfig
+TARGET_KERNEL_CONFIG := vince_defconfig
 
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
@@ -49,4 +49,4 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_COMPATIBILITY_MATRIX_LEVEL_OVERRIDE := 27
 
 # Inherit from the proprietary version
--include vendor/xiaomi/mido/BoardConfigVendor.mk
+-include vendor/xiaomi/vince/BoardConfigVendor.mk

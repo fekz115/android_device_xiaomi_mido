@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/mido/mido-vendor.mk)
+$(call inherit-product, vendor/xiaomi/vince/vince-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Overlay
@@ -31,15 +31,15 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.0-service.xiaomi_mido
+    android.hardware.biometrics.fingerprint@2.0-service.xiaomi_vince
 
 # Consumerir
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.xiaomi_mido
+    android.hardware.ir@1.0-service.xiaomi_vince
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.mido.rc
+    init.vince.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
