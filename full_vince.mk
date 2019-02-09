@@ -26,5 +26,5 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := full_vince
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 4
+PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
